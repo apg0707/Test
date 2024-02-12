@@ -1,0 +1,65 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "description": "Avax",
+      "proName": "BITSTAMP:AVAXEUR"
+    },
+    {
+      "description": "XLM",
+      "proName": "COINBASE:XLMEUR"
+    },
+    {
+      "description": "XRP",
+      "proName": "COINBASE:XRPEUR"
+    },
+    {
+      "description": "Doge",
+      "proName": "COINBASE:DOGEEUR"
+    },
+    {
+      "description": "Sweat",
+      "proName": "BITFINEX:SWEATUSD"
+    },
+    {
+      "description": "Chiliz",
+      "proName": "COINBASE:CHZEUR"
+    },
+    {
+      "description": "Celestia",
+      "proName": "KRAKEN:TIAEUR"
+    },
+    {
+      "description": "Tron",
+      "proName": "OKX:TRXEUR"
+    },
+    {
+      "description": "EOS",
+      "proName": "COINBASE:EOSEUR"
+    },
+    {
+      "description": "Balancer",
+      "proName": "KRAKEN:BALEUR"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
